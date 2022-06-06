@@ -1,0 +1,25 @@
+.filter-button{
+    padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--bg-color-section);
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus{
+        color: var(--primery-white-color);
+        background-color: var(--accent-color);
+        }
+  }
+  .portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .portfolio .link-portfolio{
+    margin-right: 8px;
+  }
+  .portfolio .link-portfolio:last-child {
+    margin-right: 0px;
+  }
+  

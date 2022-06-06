@@ -1,0 +1,57 @@
+/* ***************** */
+/* Особенности */
+/* ***************** */
+
+.subtitles {
+    padding-bottom: 10px;
+    margin: 0;
+    color: var(--main-text-color);
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+  }
+  .text {
+    margin: 0;
+    color: var(--secondary-text-color);
+  
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  .container-special{
+    display: flex;
+  }
+  .link-special{
+    margin: 0;
+    padding-right: 30px;
+    display: flex;
+
+    &:last-child{
+        padding-right: 0px;
+      }
+  }
+  .list-special{
+    margin-right: 30px;
+  }
+  
+  .link-special>.list-special{
+    flex-basis: 270px;
+  }
+  
+  .list-icon:hover,
+  .list-icon:focus{
+  fill: var(--accent-color);
+  }
+  .list-special-icon{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

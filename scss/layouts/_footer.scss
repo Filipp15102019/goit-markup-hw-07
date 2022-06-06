@@ -1,0 +1,128 @@
+/* ***************** */
+/* Footer */
+/* ***************** */
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+    background-color: var(--bg-footer);
+  
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.adress-footer{
+    margin-right: 70px;
+}
+ 
+.address {
+    margin: 0;
+    padding:0;
+  
+    font-family: "Roboto";
+
+    & :hover,
+    & :focus{
+    color: var(--accent-color);
+    }
+}
+
+.address-geo {
+    color: var(--primery-white-color);
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-contacts-footer {
+    color: var(--footer-contacts-color);
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+    color: var(--accent-color);
+    }
+}
+
+.link-address{
+    margin-bottom: 9px;
+}
+
+.social-form{
+    box-sizing: border-box;
+}
+
+.subject-form-footer{
+    display: block;
+    color: var(--primery-white-color);
+  
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    
+}
+
+.form-footer{
+    display: flex;
+    align-items: center;
+}
+
+  /* .label-email{
+    box-sizing: border-box;
+  
+    width: 358px;
+    height: 50px;
+  
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  } */
+
+.footer-email-input{
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    margin-right: 12px;
+    background-color: var(--bg-footer);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--secondary-text-color);
+
+    &:hover,
+    &:focus{
+    border: 1px solid var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.send-icon{
+    fill: currentColor;
+    margin-left: 10px;
+}
+
+
